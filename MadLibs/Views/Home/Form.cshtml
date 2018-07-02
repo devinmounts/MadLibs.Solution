@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <title>Mad Lib</title>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+  </head>
+  <body>
+    <h1>Fill in a word for the madlib!</h1>
+    <form action='/mad_action'>
+      <div class='form-group'>
+        <label for='verb'>A verb</label>
+        <input id='verb' name='verb' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='name'>Name of a person</label>
+        <input id='name' name='name' class='form-control' type='text'>
+      </div>
+      <div class='form-group'>
+        <label for='place'>Name of a place</label>
+        <input id='place' name='place' class='form-control' type='text'>
+      </div>
+
+      <button type='submit' class='btn btn-success'>Go!</button>
+    </form>
+  </body>
+</html>
